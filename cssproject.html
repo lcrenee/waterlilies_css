@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>water lilies</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        h1 {
+            font-family: monospace;
+            color: rgb(195, 195, 195);
+            position: absolute;
+            left: 260px;
+            top: 80px;
+            
+        }
+        #base {
+            position: absolute;
+            width: 1000px;
+            height: 500px;
+            background-color: rgb(255, 255, 255);
+            top: 130px;
+            left: 250px;
+        }
+        .grass1 {
+            width: 80px;
+            height: 80px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass1a {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+        #grass1b {
+            position: absolute;
+            top: 50px;
+            left: 0px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+         #grass1c {
+            position: absolute;
+            top: 100px;
+            left: 0px;
+            background-color: rgba(17, 61, 34, 0.856);
+         }
+
+        #grass1d {
+            position: absolute;
+            top: 150px;
+            left: 0px;
+            background-color: rgba(58, 91, 55, 0.856);
+         }
+
+        #grass1e {
+            position: absolute;
+            top: 200px;
+            left: 0px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+        #grass1f {
+            position: absolute;
+            top: 250px;
+            left: 0px;
+            background-color: rgba(5, 19, 42, 0.856);
+          }
+
+        #grass1g {
+            position: absolute;
+            top: 300px;
+            left: 0px;
+            background-color: rgba(15, 34, 47, 0.856);
+        }
+        
+        #grass1h {
+            position: absolute;
+            top: 350px;
+            left: 0px;
+            background-color: rgba(43, 67, 52, 0.856);
+        }
+
+        #grass1i {
+            position: absolute;
+            top: 400px;
+            left: 0px;
+            background-color: rgba(7, 49, 23, 0.856);
+        }
+
+        #grass1j {
+            position: absolute;
+            top: 450px;
+            left: 0px;
+            background-color: rgba(9, 70, 46, 0.856);
+        }
+
+        #grass1k {
+            position: absolute;
+            top: 500px;
+            left: 0px;
+            background-color: rgba(24, 78, 56, 0.856);
+        }
+
+
+        .grass2 {
+            width: 80px;
+            height: 80px;
+            left:60px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass2a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+        #grass2b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+         #grass2c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(17, 61, 34, 0.856);
+         }
+
+        #grass2d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(58, 91, 55, 0.856);
+         }
+
+        #grass2e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+        #grass2f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(5, 19, 42, 0.856);
+          }
+
+        #grass2g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(15, 34, 47, 0.856);
+        }
+        
+        #grass2h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(43, 67, 52, 0.856);
+        }
+
+        #grass2i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(7, 49, 23, 0.856);
+        }
+
+        #grass2j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(9, 70, 46, 0.856);
+        }
+
+        #grass2k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(24, 78, 56, 0.856);
+        }
+
+        .grass3 {
+            width: 80px;
+            height: 80px;
+            left: 120px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass3a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+        #grass3b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+         #grass3c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(17, 61, 34, 0.856);
+         }
+
+        #grass3d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(58, 91, 55, 0.856);
+         }
+
+        #grass3e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+        #grass3f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(5, 19, 42, 0.856);
+          }
+
+        #grass3g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(43, 67, 52, 0.856);
+        }
+        
+        #grass3h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(43, 67, 52, 0.856);
+        }
+
+        #grass3i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(48, 108, 59, 0.856);
+        }
+
+        #grass3j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(23, 72, 60, 0.856);
+        }
+
+        #grass3k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(24, 78, 56, 0.856);
+        }
+
+        .grass4 {
+            width: 80px;
+            height: 80px;
+            left: 180px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass4a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(16, 50, 29, 0.856);
+         }
+
+        #grass4b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+         #grass4c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(17, 61, 34, 0.856);
+         }
+
+        #grass4d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(58, 91, 55, 0.856);
+         }
+
+        #grass4e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(7, 49, 23, 0.856);
+         }
+
+        #grass4f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(7, 49, 23, 0.856);
+          }
+
+        #grass4g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(43, 67, 52, 0.856);
+        }
+        
+        #grass4h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(43, 67, 52, 0.856);
+        }
+
+        #grass4i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(48, 108, 59, 0.856);
+        }
+
+        #grass4j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(48, 108, 59, 0.856);
+        }
+
+        #grass4k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(48, 108, 96, 0.856);
+        }
+
+        .grass6 {
+            width: 80px;
+            height: 80px;
+            left: 300px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass6a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(49, 74, 67, 0.856);
+         }
+
+        #grass6b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(55, 85, 77, 0.856);
+         }
+
+         #grass6c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(82, 97, 118, 0.856);
+         }
+
+        #grass6d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(130, 115, 145, 0.856);
+         }
+
+        #grass6e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(130, 115, 145, 0.856);
+         }
+
+        #grass6f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(55, 80, 76, 0.856);
+          }
+
+        #grass6g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(122, 100, 134, 0.856);
+        }
+        
+        #grass6h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(77, 88, 109, 0.856);
+        }
+
+        #grass6i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(101, 113, 129, 0.856);
+        }
+
+        #grass6j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(65, 110, 73, 0.856);
+        }
+
+        #grass6k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(59, 95, 94, 0.856);
+        }
+
+        .grass5 {
+            width: 80px;
+            height: 80px;
+            left: 240px;
+            background-color: rgb(29, 57, 66);
+            border-radius: 50%;
+         }
+
+        #grass5a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(49, 74, 67, 0.856);
+         }
+
+        #grass5b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(55, 85, 77, 0.856);
+         }
+
+         #grass5c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(82, 97, 118, 0.856);
+         }
+
+        #grass5d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(130, 115, 145, 0.856);
+         }
+
+        #grass5e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(130, 115, 145, 0.856);
+         }
+
+        #grass5f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(61, 73, 85, 0.856);
+          }
+
+        #grass5g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(38, 68, 44, 0.856);
+        }
+        
+        #grass5h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(51, 95, 59, 0.856);
+        }
+
+        #grass5i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(48, 108, 59, 0.856);
+        }
+
+        #grass5j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(48, 108, 59, 0.856);
+        }
+
+        #grass5k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(70, 100, 99, 0.856);
+        }
+
+        .grass7 {
+            width: 80px;
+            height: 80px;
+            left: 360px;
+            background-color: rgb(29, 57, 66);
+            border-radius: 50%;
+        }
+
+        #grass7a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(83, 102, 96, 0.856);
+        }
+
+        #grass7b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(109, 118, 143, 0.856);
+        }
+
+        #grass7c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(154, 128, 164, 0.856);
+        }
+
+        #grass7d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(139, 142, 173, 0.856);
+        }
+
+        #grass7e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(130, 115, 145, 0.856);
+        }
+
+        #grass7f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(78, 98, 118, 0.856);
+        }
+
+        #grass7g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(79, 98, 130, 0.856);
+        }
+        
+        #grass7h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(93, 125, 133, 0.856);
+        }
+
+        #grass7i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(63, 69, 100, 0.856);
+        }
+
+        #grass7j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(48, 70, 52, 0.856);
+        }
+
+        #grass7k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(70, 100, 99, 0.856);
+        }
+
+        .grass8 {
+            width: 80px;
+            height: 80px;
+            left: 420px;
+            background-color: rgb(29, 57, 66);
+            border-radius: 50%;
+        }
+
+        #grass8a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(83, 102, 96, 0.856);
+        }
+
+        #grass8b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(109, 118, 143, 0.856);
+        }
+
+        #grass8c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(154, 128, 164, 0.856);
+        }
+
+        #grass8d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(113, 115, 137, 0.856);
+        }
+
+        #grass8e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(130, 115, 145, 0.856);
+        }
+
+        #grass8f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(132, 114, 136, 0.856);
+        }
+
+        #grass8g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(108, 89, 113, 0.856);
+        }
+        
+        #grass8h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(93, 125, 133, 0.856);
+        }
+
+        #grass8i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(94, 78, 107, 0.856);
+        }
+
+        #grass8j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(97, 85, 110, 0.856);
+        }
+
+        #grass8k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(71, 94, 94, 0.856);
+        }
+
+        .grass9 {
+            width: 80px;
+            height: 80px;
+            left: 480px;
+            background-color: rgb(29, 57, 66);
+            border-radius: 50%;
+        }
+
+        #grass9a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(148, 132, 152, 0.856);
+        }
+
+        #grass9b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(119, 108, 134, 0.856);
+        }
+
+        #grass9c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(147, 126, 156, 0.856);
+        }
+
+        #grass9d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(183, 156, 186, 0.856);
+        }
+
+        #grass9e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(166, 155, 178, 0.856);
+        }
+
+        #grass9f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(132, 114, 136, 0.856);
+        }
+
+        #grass9g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(132, 114, 136, 0.856);
+        }
+        
+        #grass9h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(134, 144, 147, 0.856);
+        }
+
+        #grass9i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(116, 102, 126, 0.856);
+        }
+
+        #grass9j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(143, 124, 164, 0.856);
+        }
+
+        #grass9k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(108, 116, 126, 0.856);
+        }
+
+        .grass10 {
+            width: 80px;
+            height: 80px;
+            left: 540px;
+            background-color: rgb(29, 57, 66);
+            border-radius: 50%;
+        }
+
+        #grass10a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(111, 102, 131, 0.856);
+        }
+
+        #grass10b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(117, 134, 131, 0.856);
+        }
+
+        #grass10c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(113, 142, 124, 0.856);
+        }
+
+        #grass10d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(160, 187, 156, 0.856);
+        }
+
+        #grass10e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(110, 140, 125, 0.856);
+        }
+
+        #grass10f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(84, 105, 97, 0.856);
+        }
+
+        #grass10g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(112, 135, 158, 0.856);
+        }
+        
+        #grass10h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(149, 127, 152, 0.856);
+        }
+
+        #grass10i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(116, 102, 126, 0.856);
+        }
+
+        #grass10j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(106, 113, 155, 0.856);
+        }
+
+        #grass10k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(108, 116, 126, 0.856);
+        }
+
+        .grass11 {
+            width: 80px;
+            height: 80px;
+            left: 600px;
+            background-color: rgb(29, 57, 66);
+            border-radius: 50%;
+        }
+
+        #grass11a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(117, 134, 131, 0.856);
+        }
+
+        #grass11b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(117, 134, 131, 0.856);
+        }
+
+        #grass11c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(87, 114, 110, 0.856);
+        }
+
+        #grass11d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(76, 105, 100, 0.856);
+        }
+
+        #grass11e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(76, 112, 94, 0.856);
+        }
+
+        #grass11f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(116, 142, 150, 0.856);
+        }
+
+        #grass11g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(112, 135, 158, 0.856);
+        }
+        
+        #grass11h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(149, 127, 152, 0.856);
+        }
+
+        #grass11i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(98, 146, 112, 0.856);
+        }
+
+        #grass11j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(85, 123, 102, 0.856);
+        }
+
+        #grass11k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(81, 144, 118, 0.856);
+        }
+
+        .grass12 {
+            width: 80px;
+            height: 80px;
+            left:660px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass12a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass12b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+         #grass12c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass12d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass12e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass12f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(88, 144, 82, 0.856);
+          }
+
+        #grass12g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(126, 110, 171, 0.856);
+        }
+        
+        #grass12h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(123, 118, 156, 0.856);
+        }
+
+        #grass12i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(75, 96, 101, 0.856);
+        }
+
+        #grass12j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(68, 108, 64, 0.856);
+        }
+
+        #grass12k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(88, 144, 82, 0.856);
+        }
+
+        .grass13 {
+            width: 80px;
+            height: 80px;
+            left:720px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass13a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass13b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+         #grass13c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass13d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass13e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass13f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(88, 144, 82, 0.856);
+          }
+
+        #grass13g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(88, 144, 82, 0.856);
+        }
+        
+        #grass13h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(95, 134, 90, 0.856);
+        }
+
+        #grass13i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(68, 108, 64, 0.856);
+        }
+
+        #grass13j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(68, 108, 64, 0.856);
+        }
+
+        #grass13k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(68, 108, 64, 0.856);
+        }
+
+        .grass14 {
+            width: 80px;
+            height: 80px;
+            left:780px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass14a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass14b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+         #grass14c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass14d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass14e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass14f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(88, 144, 82, 0.856);
+          }
+
+        #grass14g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(88, 144, 82, 0.856);
+        }
+        
+        #grass14h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(95, 134, 90, 0.856);
+        }
+
+        #grass14i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(68, 108, 64, 0.856);
+        }
+
+        #grass14j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(68, 108, 64, 0.856);
+        }
+
+        #grass14k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(68, 108, 64, 0.856);
+        }
+
+        .grass15 {
+            width: 80px;
+            height: 80px;
+            left:840px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass15a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass15b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+         #grass15c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass15d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass15e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass15f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(88, 144, 82, 0.856);
+          }
+
+        #grass15g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(88, 144, 82, 0.856);
+        }
+        
+        #grass15h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(95, 134, 90, 0.856);
+        }
+
+        #grass15i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(68, 108, 64, 0.856);
+        }
+
+        #grass15j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(68, 108, 64, 0.856);
+        }
+
+        #grass15k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(68, 108, 64, 0.856);
+        }
+
+        .grass16 {
+            width: 80px;
+            height: 80px;
+            left:900px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass16a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass16b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+         #grass16c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass16d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass16e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(88, 144, 82, 0.856);
+         }
+
+        #grass16f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(79, 120, 74, 0.856);
+          }
+
+        #grass16g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(53, 96, 48, 0.856);
+        }
+        
+        #grass16h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(54, 84, 76, 0.856);
+        }
+
+        #grass16i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(45, 67, 83, 0.856);
+        }
+
+        #grass16j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(39, 96, 68, 0.856);
+        }
+
+        #grass16k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(54, 89, 51, 0.856);
+        }
+
+        .grass17 {
+            width: 80px;
+            height: 80px;
+            left:960px;
+            background-color: rgb(57, 71, 21);
+            border-radius: 50%;
+         }
+
+        #grass17a {
+            position: absolute;
+            top: 0px;
+            background-color: rgba(73, 121, 68, 0.856);
+         }
+
+        #grass17b {
+            position: absolute;
+            top: 50px;
+            background-color: rgba(74, 112, 70, 0.856);
+         }
+
+         #grass17c {
+            position: absolute;
+            top: 100px;
+            background-color: rgba(64, 110, 59, 0.856);
+         }
+
+        #grass17d {
+            position: absolute;
+            top: 150px;
+            background-color: rgba(70, 119, 65, 0.856);
+         }
+
+        #grass17e {
+            position: absolute;
+            top: 200px;
+            background-color: rgba(57, 91, 73, 0.856);
+         }
+
+        #grass17f {
+            position: absolute;
+            top: 250px;
+            background-color: rgba(44, 68, 54, 0.856);
+          }
+
+        #grass17g {
+            position: absolute;
+            top: 300px;
+            background-color: rgba(40, 67, 37, 0.856);
+        }
+        
+        #grass17h {
+            position: absolute;
+            top: 350px;
+            background-color: rgba(54, 84, 76, 0.856);
+        }
+
+        #grass17i {
+            position: absolute;
+            top: 400px;
+            background-color: rgba(45, 67, 83, 0.856);
+        }
+
+        #grass17j {
+            position: absolute;
+            top: 450px;
+            background-color: rgba(39, 96, 68, 0.856);
+        }
+
+        #grass17k {
+            position: absolute;
+            top: 500px;
+            background-color: rgba(54, 89, 51, 0.856);
+        }
+
+        .lili {
+            width: 80px;
+            height: 80px;
+            background-color: rgb(156, 223, 121);
+            border-radius: 50%;
+
+        }
+
+        #lili1 {
+            position: absolute;
+            top: 200px;
+            left: 300px;
+            background-color: rgb(105, 145, 83);
+        }
+
+        #lili2 {
+            position: absolute;
+            top: 200px;
+            left: 350px;
+            background-color: rgb(105, 145, 83);
+        }
+
+        #lili3 {
+            position: absolute;
+            top: 200px;
+            left: 450px;
+            background-color: rgb(105, 145, 83);
+        }
+
+        #lili4 {
+            position: absolute;
+            top: 280px;
+            left: 450px;
+            background-color: rgb(105, 145, 83);
+        }
+
+         #lili5 {
+            position: absolute;
+            top: 220px;
+            left: 500px;
+            background-color: rgb(105, 145, 83);
+        }
+
+        #lili5 {
+            position: absolute;
+            top: 230px;
+            left: 530px;
+            background-color: rgb(150, 197, 123);
+        }
+
+        #lili6 {
+            position: absolute;
+            top: 240px;
+            left: 600px;
+            background-color: rgb(191, 198, 139);
+        }
+
+        #lili7 {
+            position: absolute;
+            top: 280px;
+            left: 700px;
+            background-color: rgb(214, 210, 137);
+        }
+
+        #lili8 {
+            position: absolute;
+            top: 400px;
+            left: 300px;
+            background-color: rgb(68, 89, 56);
+        }
+
+        #lili9 {
+            position: absolute;
+            top: 500px;
+            left: 340px;
+            background-color: rgb(108, 145, 86);
+        }
+
+        #lili10 {
+            position: absolute;
+            top: 550px;
+            left: 360px;
+            background-color: rgb(98, 126, 82);
+        }
+
+        #lili11 {
+            position: absolute;
+            top: 500px;
+            left: 450px;
+            background-color: rgb(108, 145, 86);
+        }
+
+        #lili12 {
+            position: absolute;
+            top: 610px;
+            left: 400px;
+            background-color: rgb(65, 93, 73);
+        }
+
+        #lili13 {
+            position: absolute;
+            top: 530px;
+            left: 600px;
+            background-color: rgb(198, 193, 136);
+        }
+
+        #lili14 {
+            position: absolute;
+            top: 500px;
+            left: 450px;
+            background-color: rgb(142, 173, 124);
+        }
+
+        #lili15 {
+            position: absolute;
+            top: 480px;
+            left: 500px;
+            background-color: rgb(163, 202, 156);
+        }
+
+        #lili16 {
+            position: absolute;
+            top: 600px;
+            left: 900px;
+            background-color: rgb(175, 205, 157);
+        }
+
+        #lili17 {
+            position: absolute;
+            top: 550px;
+            left: 950px;
+            background-color: rgb(166, 211, 221);
+        }
+
+        #lili18 {
+            position: absolute;
+            top: 600px;
+            left: 1100px;
+            background-color: rgb(33, 61, 28);
+        }
+
+        #lili19 {
+            position: absolute;
+            top: 400px;
+            left: 1100px;
+            background-color: rgb(71, 142, 95);
+        }
+
+        #lili20 {
+            position: absolute;
+            top: 400px;
+            left: 1000px;
+            background-color: rgb(123, 179, 127);
+        }
+
+        .flower {
+            width: 80px;
+            height: 80px;
+            background-color: rgb(220, 129, 211);
+            border-radius: 50%;
+        }
+
+        #flower1 {
+            position: absolute;
+            top: 180px;
+            left: 500px;
+            background-color: rgb(231, 179, 188);
+        }
+
+        #flower2 {
+            position: absolute;
+            top: 450px;
+            left: 400px;
+            background-color: rgb(187, 128, 138);
+        }
+
+        #flower3 {
+            position: absolute;
+            top: 400px;
+            left: 550px;
+            background-color: rgb(215, 171, 179);
+        }
+
+        #flower4 {
+            position: absolute;
+            top: 340px;
+            left: 1050px;
+            background-color: rgb(189, 94, 108);
+        }
+
+        #flower5 {
+            position: absolute;
+            top: 450px;
+            left: 1150px;
+            background-color: rgb(117, 83, 89);
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Water Lilies by Claude Monet, 1991</h1>
+    <div id="base">
+        <div id="grass1a" class="grass1"></div>
+        <div id="grass1b" class="grass1"></div>
+        <div id="grass1c" class="grass1"></div>
+        <div id="grass1d" class="grass1"></div>
+        <div id="grass1e" class="grass1"></div>
+        <div id="grass1f" class="grass1"></div>
+        <div id="grass1g" class="grass1"></div>
+        <div id="grass1h" class="grass1"></div>
+        <div id="grass1i" class="grass1"></div>
+        <div id="grass1j" class="grass1"></div>
+        <div id="grass1k" class="grass1"></div>
+        
+        <div id="grass2a" class="grass2"></div>
+        <div id="grass2b" class="grass2"></div>
+        <div id="grass2c" class="grass2"></div>
+        <div id="grass2d" class="grass2"></div>
+        <div id="grass2e" class="grass2"></div>
+        <div id="grass2f" class="grass2"></div>
+        <div id="grass2g" class="grass2"></div>
+        <div id="grass2h" class="grass2"></div>
+        <div id="grass2i" class="grass2"></div>
+        <div id="grass2j" class="grass2"></div>
+        <div id="grass2k" class="grass2"></div>
+        
+        <div id="grass3a" class="grass3"></div>
+        <div id="grass3b" class="grass3"></div>
+        <div id="grass3c" class="grass3"></div>
+        <div id="grass3d" class="grass3"></div>
+        <div id="grass3e" class="grass3"></div>
+        <div id="grass3f" class="grass3"></div>
+        <div id="grass3g" class="grass3"></div>
+        <div id="grass3h" class="grass3"></div>
+        <div id="grass3i" class="grass3"></div>
+        <div id="grass3j" class="grass3"></div>
+        <div id="grass3k" class="grass3"></div>
+
+        <div id="grass4a" class="grass4"></div>
+        <div id="grass4b" class="grass4"></div>
+        <div id="grass4c" class="grass4"></div>
+        <div id="grass4d" class="grass4"></div>
+        <div id="grass4e" class="grass4"></div>
+        <div id="grass4f" class="grass4"></div>
+        <div id="grass4g" class="grass4"></div>
+        <div id="grass4h" class="grass4"></div>
+        <div id="grass4i" class="grass4"></div>
+        <div id="grass4j" class="grass4"></div>
+        <div id="grass4k" class="grass4"></div>
+
+        <div id="grass5a" class="grass5"></div>
+        <div id="grass5b" class="grass5"></div>
+        <div id="grass5c" class="grass5"></div>
+        <div id="grass5d" class="grass5"></div>
+        <div id="grass5e" class="grass5"></div>
+        <div id="grass5f" class="grass5"></div>
+        <div id="grass5g" class="grass5"></div>
+        <div id="grass5h" class="grass5"></div>
+        <div id="grass5i" class="grass5"></div>
+        <div id="grass5j" class="grass5"></div>
+        <div id="grass5k" class="grass5"></div>
+
+        <div id="grass6a" class="grass6"></div>
+        <div id="grass6b" class="grass6"></div>
+        <div id="grass6c" class="grass6"></div>
+        <div id="grass6d" class="grass6"></div>
+        <div id="grass6e" class="grass6"></div>
+        <div id="grass6f" class="grass6"></div>
+        <div id="grass6g" class="grass6"></div>
+        <div id="grass6h" class="grass6"></div>
+        <div id="grass6i" class="grass6"></div>
+        <div id="grass6j" class="grass6"></div>
+        <div id="grass6k" class="grass6"></div>
+
+        <div id="grass7a" class="grass7"></div>
+        <div id="grass7b" class="grass7"></div>
+        <div id="grass7c" class="grass7"></div>
+        <div id="grass7d" class="grass7"></div>
+        <div id="grass7e" class="grass7"></div>
+        <div id="grass7f" class="grass7"></div>
+        <div id="grass7g" class="grass7"></div>
+        <div id="grass7h" class="grass7"></div>
+        <div id="grass7i" class="grass7"></div>
+        <div id="grass7j" class="grass7"></div>
+        <div id="grass7k" class="grass7"></div>
+
+        <div id="grass8a" class="grass8"></div>
+        <div id="grass8b" class="grass8"></div>
+        <div id="grass8c" class="grass8"></div>
+        <div id="grass8d" class="grass8"></div>
+        <div id="grass8e" class="grass8"></div>
+        <div id="grass8f" class="grass8"></div>
+        <div id="grass8g" class="grass8"></div>
+        <div id="grass8h" class="grass8"></div>
+        <div id="grass8i" class="grass8"></div>
+        <div id="grass8j" class="grass8"></div>
+        <div id="grass8k" class="grass8"></div>
+
+        <div id="grass9a" class="grass9"></div>
+        <div id="grass9b" class="grass9"></div>
+        <div id="grass9c" class="grass9"></div>
+        <div id="grass9d" class="grass9"></div>
+        <div id="grass9e" class="grass9"></div>
+        <div id="grass9f" class="grass9"></div>
+        <div id="grass9g" class="grass9"></div>
+        <div id="grass9h" class="grass9"></div>
+        <div id="grass9i" class="grass9"></div>
+        <div id="grass9j" class="grass9"></div>
+        <div id="grass9k" class="grass9"></div>
+
+        <div id="grass10a" class="grass10"></div>
+        <div id="grass10b" class="grass10"></div>
+        <div id="grass10c" class="grass10"></div>
+        <div id="grass10d" class="grass10"></div>
+        <div id="grass10e" class="grass10"></div>
+        <div id="grass10f" class="grass10"></div>
+        <div id="grass10g" class="grass10"></div>
+        <div id="grass10h" class="grass10"></div>
+        <div id="grass10i" class="grass10"></div>
+        <div id="grass10j" class="grass10"></div>
+        <div id="grass10k" class="grass10"></div>
+
+        <div id="grass11a" class="grass11"></div>
+        <div id="grass11b" class="grass11"></div>
+        <div id="grass11c" class="grass11"></div>
+        <div id="grass11d" class="grass11"></div>
+        <div id="grass11e" class="grass11"></div>
+        <div id="grass11f" class="grass11"></div>
+        <div id="grass11g" class="grass11"></div>
+        <div id="grass11h" class="grass11"></div>
+        <div id="grass11i" class="grass11"></div>
+        <div id="grass11j" class="grass11"></div>
+        <div id="grass11k" class="grass11"></div>
+
+        <div id="grass12a" class="grass12"></div>
+        <div id="grass12b" class="grass12"></div>
+        <div id="grass12c" class="grass12"></div>
+        <div id="grass12d" class="grass12"></div>
+        <div id="grass12e" class="grass12"></div>
+        <div id="grass12f" class="grass12"></div>
+        <div id="grass12g" class="grass12"></div>
+        <div id="grass12h" class="grass12"></div>
+        <div id="grass12i" class="grass12"></div>
+        <div id="grass12j" class="grass12"></div>
+        <div id="grass12k" class="grass12"></div>
+
+        <div id="grass13a" class="grass13"></div>
+        <div id="grass13b" class="grass13"></div>
+        <div id="grass13c" class="grass13"></div>
+        <div id="grass13d" class="grass13"></div>
+        <div id="grass13e" class="grass13"></div>
+        <div id="grass13f" class="grass13"></div>
+        <div id="grass13g" class="grass13"></div>
+        <div id="grass13h" class="grass13"></div>
+        <div id="grass13i" class="grass13"></div>
+        <div id="grass13j" class="grass13"></div>
+        <div id="grass13k" class="grass13"></div>
+
+        <div id="grass14a" class="grass14"></div>
+        <div id="grass14b" class="grass14"></div>
+        <div id="grass14c" class="grass14"></div>
+        <div id="grass14d" class="grass14"></div>
+        <div id="grass14e" class="grass14"></div>
+        <div id="grass14f" class="grass14"></div>
+        <div id="grass14g" class="grass14"></div>
+        <div id="grass14h" class="grass14"></div>
+        <div id="grass14i" class="grass14"></div>
+        <div id="grass14j" class="grass14"></div>
+        <div id="grass14k" class="grass14"></div>
+
+        <div id="grass15a" class="grass15"></div>
+        <div id="grass15b" class="grass15"></div>
+        <div id="grass15c" class="grass15"></div>
+        <div id="grass15d" class="grass15"></div>
+        <div id="grass15e" class="grass15"></div>
+        <div id="grass15f" class="grass15"></div>
+        <div id="grass15g" class="grass15"></div>
+        <div id="grass15h" class="grass15"></div>
+        <div id="grass15i" class="grass15"></div>
+        <div id="grass15j" class="grass15"></div>
+        <div id="grass15k" class="grass15"></div>
+
+        <div id="grass16a" class="grass16"></div>
+        <div id="grass16b" class="grass16"></div>
+        <div id="grass16c" class="grass16"></div>
+        <div id="grass16d" class="grass16"></div>
+        <div id="grass16e" class="grass16"></div>
+        <div id="grass16f" class="grass16"></div>
+        <div id="grass16g" class="grass16"></div>
+        <div id="grass16h" class="grass16"></div>
+        <div id="grass16i" class="grass16"></div>
+        <div id="grass16j" class="grass16"></div>
+        <div id="grass16k" class="grass16"></div>
+
+        <div id="grass17a" class="grass17"></div>
+        <div id="grass17b" class="grass17"></div>
+        <div id="grass17c" class="grass17"></div>
+        <div id="grass17d" class="grass17"></div>
+        <div id="grass17e" class="grass17"></div>
+        <div id="grass17f" class="grass17"></div>
+        <div id="grass17g" class="grass17"></div>
+        <div id="grass17h" class="grass17"></div>
+        <div id="grass17i" class="grass17"></div>
+        <div id="grass17j" class="grass17"></div>
+        <div id="grass17k" class="grass17"></div>
+        </div>
+
+        <div id="lili1" class="lili"></div>
+        <div id="lili2" class="lili"></div>
+        <div id="lili3" class="lili"></div>
+        <div id="lili4" class="lili"></div>
+        <div id="lili5" class="lili"></div>
+        <div id="lili6" class="lili"></div>
+        <div id="lili7" class="lili"></div>
+        <div id="lili8" class="lili"></div>
+        <div id="lili9" class="lili"></div>
+        <div id="lili10" class="lili"></div>
+        <div id="lili11" class="lili"></div>
+        <div id="lili12" class="lili"></div>
+        <div id="lili13" class="lili"></div>
+        <div id="lili14" class="lili"></div>
+        <div id="lili15" class="lili"></div>
+        <div id="lili16" class="lili"></div>
+        <div id="lili17" class="lili"></div>
+        <div id="lili18" class="lili"></div>
+        <div id="lili19" class="lili"></div>
+        <div id="lili20" class="lili"></div>
+
+        <div id="flower1" class="flower"></div>
+        <div id="flower2" class="flower"></div>
+        <div id="flower3" class="flower"></div>
+        <div id="flower4" class="flower"></div>
+        <div id="flower5" class="flower"></div>
+
+
+
+
+    </div>
+</body>
+</html>
